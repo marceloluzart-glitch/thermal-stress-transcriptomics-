@@ -13,7 +13,7 @@ import statsmodels.api as sm
 os.makedirs("results/figures", exist_ok=True)
 os.makedirs("results/tables", exist_ok=True)
 
-file_path = "/content/drive/MyDrive/ML  BioInformática/BIOMARCADOR DE ESTRESS TERMICO /matrix_final_CPM_symbols_clean.csv"
+file_path = "matrix_final_CPM_symbols_clean.csv"
 df = pd.read_csv(file_path).set_index("symbol")
 
 plt.figure(figsize=(7, 5))
